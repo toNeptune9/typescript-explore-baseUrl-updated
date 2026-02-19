@@ -1,0 +1,13 @@
+{
+  "name": "typescript-explore-baseurl-updated",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo project for TypeScript issue #62207: module resolution with paths without baseUrl",
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "trace": "tsc -p tsconfig.json --traceResolution --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
